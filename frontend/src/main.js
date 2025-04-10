@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
-axios.defaults.baseURL = 'http://54.152.36.18/api'
+axios.defaults.baseURL = 'http://127.0.0.1:8000/backend/api'
 
 
 const token = localStorage.getItem('token')
