@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
-axios.defaults.baseURL = 'http://task-manager.pruthvi-enterprise.in/'
+axios.defaults.baseURL = 'https://task-manager.pruthvi-enterprise.in/'
 
 
 const token = localStorage.getItem('token')
